@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    flex-direction: column;
+   /* background: white; */
+   min-height: auto;
+   
+}
+footer{
+    /* height: 100%; */
+    width: 100%;
+    margin-top: auto;
+    background-color: rgb(10, 83, 83);
+
+}
+.wrapper {
+    margin-bottom: 1rem;
+}
+header{
+    margin-bottom: 1rem;
+    position: sticky;
+    top: 0%;
+    z-index: 999;
+    width: 100%;
+
+}
