@@ -1,0 +1,10 @@
+// tsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@/widgets/cards/*": ["widgets/cards/*"],
+      "@/data/*": ["data/*"],
+    },
+  },
+}
